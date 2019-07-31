@@ -4,8 +4,6 @@ import ReactDOM from "react-dom";
 import UserInput from "./components/UserInput/UserInput";
 import UserOutput from "./components/UserOutput/UserOutput";
 
-import "./styles.css";
-
 class App extends Component {
   state = {
     usernames: [
